@@ -1,0 +1,51 @@
+{
+  "name": "react-app-starter",
+  "version": "1.0.0",
+  "description": "React application boilerplate",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server/server.js",
+    "start-webpack": "webpack --config webpack.config.js --progress --colors --watch",
+    "start-nodemon": "nodemon server/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gunbladesniper/react-app-starter.git"
+  },
+  "author": "Savaughn Jones",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gunbladesniper/react-app-starter/issues"
+  },
+  "homepage": "https://github.com/gunbladesniper/react-app-starter#readme",
+    "babel":{
+    "presets": [
+      "es2015",
+      "react"
+    ]
+  },
+  "dependencies": {
+    "axios": "^0.16.1",
+    "babel": "^6.23.0",
+    "babel-core": "^6.24.1",
+    "babel-loader": "^7.0.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "body-parser": "^1.17.2",
+    "css-loader": "^0.28.4",
+    "express": "^4.15.3",
+    "file-loader": "^0.11.2",
+    "node-sass": "^4.5.3",
+    "pg": "^6.2.3",
+    "react": "^15.5.4",
+    "react-bootstrap": "^0.31.0",
+    "react-dom": "^15.5.4",
+    "react-redux": "^5.0.5",
+    "redux": "^3.6.0",
+    "sass-loader": "^6.0.5",
+    "sql-template-strings": "^2.2.2",
+    "style-loader": "^0.18.1",
+    "url-loader": "^0.5.8",
+    "webpack": "^2.6.1"
+  }
+}
